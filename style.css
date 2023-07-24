@@ -1,0 +1,36 @@
+:root {
+    --ocean: #404BBF;
+    --cloud: #F4F4FD;
+    --cornflower: #E7E9FC;
+}
+
+
+body {
+    font-family: roboto, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+/*header*/
+
+/*portfolio*/
+
+/*filter*/
+.nav{
+    display: inline-block;
+    align-items: flex-start;
+    gap: 24px;
+}
+.nav_filter-btn {
+    border-radius: 4px;
+border: 1px solid var(--cornflower);
+background: var(--cloud);
+cursor: pointer;
+}
+
+.nav_filter-btn:hover, .nav_filter-btn:focus {
+    border-radius: 4px;
+background: var(--ocean);
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
