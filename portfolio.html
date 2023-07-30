@@ -1,55 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./reset.css" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="./style.css" />
     <title>portfolio</title>
+  </head>
 
-</head>
-
-<body>
-    <header>
-        <nav>
-            <a href="./index.html"> WebStudio</a>
-            <ul>
-                <li><a href="">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
-            </ul>
-        </nav>
-        <address>
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-            </ul>
-        </address>
+  <body>
+    <header class="header">
+      <nav class="header_nav">
+        <a class="header_nav-logo" href="./index.html">
+          <span class="text-blue">Web</span>Studio</a
+        >
+        <ul class="header_nav_list">
+          <li class="header_nav_list_item">
+            <a class="header_nav_list_item-link" href="./index.html">Studio</a>
+          </li>
+          <li class="header_nav_list_item">
+            <a class="header_nav_list_item-link" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="header_nav_list_item">
+            <a class="header_nav_list_item-link" href="#">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="header_address">
+        <ul class="header_adress_list">
+          <li class="header_adress_list_item">
+            <a
+              class="header_adress_list_item-link"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="header_adress_list_item">
+            <a class="header_adress_list_item-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
     </header>
     <main>
-        <section>
-            <div class="container">
-                <ul class="nav_filter">
-                    <li class="nav_filter-item">
-                        <button type="button" class="nav_filter-btn">All</button>
-                    </li>
-                    <li class="nav_filter-item">
-                        <button type="button" class="nav_filter-btn">Web Site</button>
-                    </li>
-                    <li class="nav_filter-item">
-                        <button type="button" class="nav_filter-btn">Desing</button>
-                    </li>
-                    <li class="nav_filter-item">
-                        <button type="button" class="nav_filter-btn">Marketing</button>
-                    </li>
-                </ul>
-
-            </div>
-        </section>
+      <section>
+        <div class="container">
+          <ul class="nav_filter">
+            <li class="nav_filter-item">
+              <button type="button" class="nav_filter-btn">All</button>
+            </li>
+            <li class="nav_filter-item">
+              <button type="button" class="nav_filter-btn">Web Site</button>
+            </li>
+            <li class="nav_filter-item">
+              <button type="button" class="nav_filter-btn">Desing</button>
+            </li>
+            <li class="nav_filter-item">
+              <button type="button" class="nav_filter-btn">Marketing</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="portfolio">
+        <ul class="portfolio_list">
+          <li class="portfolio_list_item">
+            <img src="./images/banking_app.jpg" alt="Banking App Interface Concept" class="portfolio_list_item-image" width="360px"/>
+            <h3 class="portfolio_list_item-title">Banking App Interface Concept</h3>
+            <p class="portfolio_list_item-subtitle">App</p>
+          </li>
+          <li class="portfolio_list_item">
+            <img src="./images/marketing.jpg" alt="Cashless Payment" class="portfolio_list_item-image" width="360px"/>
+            <h3 class="portfolio_list_item-title">Cashless Payment</h3>
+            <p class="portfolio_list_item-subtitle">Marketing</p>
+          </li>
+          <li class="portfolio_list_item">
+            <img src="./images/meditation_app.jpg" alt="Meditation App" class="portfolio_list_item-image" width="360px"/>
+            <h3 class="portfolio_list_item-title">Meditation App</h3>
+            <p class="portfolio_list_item-subtitle">App</p>
+          </li>
+          <li class="portfolio_list_item">
+            <img src="./images/taxi.jpg" alt="Taxi Service" class="portfolio_list_item-image" width="360px"/>
+            <h3 class="portfolio_list_item-title">Taxi Service</h3>
+            <p class="portfolio_list_item-subtitle">Marketing</p>
+          </li>
+          <li class="portfolio_list_item">
+            <img src="./images/screen.jpg" alt="Screen Illustrations" class="portfolio_list_item-image" width="360px"/>
+            <h3 class="portfolio_list_item-title">Screen Illustrations</h3>
+            <p class="portfolio_list_item-subtitle">Design</p>
+          </li>
+          <li class="portfolio_list_item">
+            <img src="./images/online_courses.jpg" alt="Online Courses" class="portfolio_list_item-image" width="360px"/>
+            <h3 class="portfolio_list_item-title">Online Courses</h3>
+            <p class="portfolio_list_item-subtitle">Marketing</p>
+          </li>
+          <li class="portfolio_list_item">
+            <img src="./images/instagram.jpg" alt="Instagram Stories Concept" class="portfolio_list_item-image" width="360px"/>
+            <h3 class="portfolio_list_item-title">Instagram Stories Concept</h3>
+            <p class="portfolio_list_item-subtitle">Design</p>
+          </li>
+          <li class="portfolio_list_item">
+            <img src="./images/food.jpg" alt="Organic Food" class="portfolio_list_item-image" width="360px"/>
+            <h3 class="portfolio_list_item-title">Organic Food</h3>
+            <p class="portfolio_list_item-subtitle">Web Site</p>
+          </li>
+          <li class="portfolio_list_item">
+            <img src="./images/coffee.jpg" alt="Fresh Coffee" class="portfolio_list_item-image" width="360px"/>
+            <h3 class="portfolio_list_item-title">Fresh Coffee</h3>
+            <p class="portfolio_list_item-subtitle">Web Site</p>
+          </li>
+        </ul>
+      </section>
     </main>
-</body>
-
+    <footer class="footer">
+        <div class="footer_wrapper">
+            <a class="footer_wrapper-logo" href="./index.html">
+                <span class="text-blue">Web</span>Studio
+            </a>
+            <p class="footer_wrapper-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+            </p>
+        </div>
+    </footer>
+  </body>
 </html>
