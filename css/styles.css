@@ -206,8 +206,8 @@ color: var(--ocean);
   font-size: 36px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.11; /* 111.111% */
-  letter-spacing: 0.02em;
+  line-height: 1.11;
+  letter-spacing: 0.02;
   text-transform: capitalize;
 }
 
