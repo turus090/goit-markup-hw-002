@@ -294,27 +294,28 @@ color: var(--ocean);
   height: auto;
   border-radius: 4px;
   border: 1px solid var(--cornflower);
-  background: var(--cloud);
-  color: var(--iris, #4d5ae5);
+  background-color: var(--cloud);
+  color: var(--iris);
+  font-family: "Roboto", sans-serif;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .nav_filter-btn:hover {
-  color: var(--cloud);
+  color: #FFFFFF;
   border-radius: 4px;
   background: var(--ocean);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .nav_filter-btn:focus {
+  color: #FFFFFF;
   border-radius: 4px;
-  background: var(--iris);
+  background: var(--ocean);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
