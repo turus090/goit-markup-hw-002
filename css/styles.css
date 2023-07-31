@@ -239,7 +239,6 @@ color: var(--ocean);
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  background-color: #FFFFFF;
 }
 
 
@@ -248,7 +247,6 @@ color: var(--ocean);
   padding: 72px 156px;
   display: flex;
   column-gap: 24px;
-  background-color: #FFFFFF;
 }
 
 .team_list_item-name {
@@ -260,11 +258,14 @@ color: var(--ocean);
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: 0.4px;
+}
+
+.team_list_item {
   background-color: #FFFFFF;
 }
 
 .team_list_item-text {
-  padding-top: 8px;
+  padding: 8px 0 32px 0;
   text-align: center;
   color: var(--slate, #434455);
   text-align: center;
