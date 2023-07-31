@@ -29,18 +29,24 @@ ul {
 }
 .header_nav-logo {
   text-decoration: none;
-  color: var(--navyblue);
-  font-family: Raleway;
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+.link {
+ text-decoration: none; 
+}
 
+.list {
+  list-style: none;
+}
 .text-blue {
-  color: var(--iris);
+  color: var(--navyblue);
 }
 
 .header_nav {
@@ -54,6 +60,7 @@ ul {
   column-gap: 40px;
 }
 
+
 .header_nav_list_item-link {
   text-decoration: none;
   color: var(--navyblue);
@@ -61,8 +68,12 @@ ul {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.header_address{
+  font-style: normal;
 }
 
 .header_adress_list {
