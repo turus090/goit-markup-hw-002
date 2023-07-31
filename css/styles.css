@@ -370,9 +370,8 @@ color: var(--ocean);
 
 .footer_wrapper-logo {
   text-decoration: none;
-  font-family: "Raleway", sans-serif;
   color: var(--iris);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
