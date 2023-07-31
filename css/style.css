@@ -227,6 +227,7 @@ color: var(--ocean);
 .team {
   width: 1440px;
   margin: 120px auto 0 auto;
+  background-color: var(--cloud);
 }
 
 .team-title {
@@ -235,7 +236,7 @@ color: var(--ocean);
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -245,6 +246,7 @@ color: var(--ocean);
   padding: 72px 156px;
   display: flex;
   column-gap: 24px;
+  background-color: #FFFFFF;
 }
 
 .team_list_item-name {
