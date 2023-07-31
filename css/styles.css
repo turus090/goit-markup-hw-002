@@ -380,6 +380,10 @@ color: var(--ocean);
   text-transform: uppercase;
 }
 
+.footer-span {
+  color: var(--cloud) ;
+}
+
 .footer_wrapper-text {
   padding-top: 16px;
   color: var(--cloud);
