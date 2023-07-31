@@ -42,6 +42,7 @@ ul {
  text-decoration: none; 
 }
 
+
 .list {
   list-style: none;
 }
@@ -71,6 +72,13 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.header_nav_list_item-link:hover{
+  color: var(--ocean);
+}
+
+.header_nav_list_item-link:focus{
+  color: var(--ocean);
+}
 
 .header_address{
   font-style: normal;
@@ -90,6 +98,14 @@ ul {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+}
+
+.header_adress_list_item-link:focus {
+color: var(--ocean);
+}
+
+.header_adress_list_item-link:hover{
+  color: var(--ocean);
 }
 
 /*web-studio*/
