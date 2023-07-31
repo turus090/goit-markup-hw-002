@@ -179,20 +179,19 @@ color: var(--ocean);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
-  letter-spacing: 0.4px;
+  line-height: 1.2px; /* 120% */
+  letter-spacing: 0.02em;
 }
 
 .advantage_list_item-text {
   padding-top: 8px;
   color: var(--slate);
-  /* Body */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
 
 .about {
@@ -207,7 +206,7 @@ color: var(--ocean);
   font-style: normal;
   font-weight: 500;
   line-height: 1.11;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
