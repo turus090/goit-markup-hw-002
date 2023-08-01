@@ -18,10 +18,7 @@ ul {
   list-style: none;
 }
 /*header*/
-.header {
- 
-  border-bottom: 1px solid var(--cornflower);
-}
+
 .header_nav-logo {
   text-decoration: none;
   color: var(--iris);
